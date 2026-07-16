@@ -305,6 +305,23 @@
             font-weight: 500;
         }
 
+        .publication-links {
+            display: flex;
+            gap: 14px;
+            margin-top: 14px;
+        }
+
+        .publication-links a {
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .publication-links a::after {
+            content: " ↗";
+            font-size: 11px;
+        }
+
         .contact-card {
             padding: 25px 28px;
 
@@ -659,19 +676,12 @@
                         </h3>
 
                         <p class="item-description">
-                            An experimental framework for evaluating AI coding
-                            agents on software-maintenance and security tasks.
-                        </p>
-                    </article>
-
-                    <article class="project-item">
-                        <h3 class="item-title">
-                            Roblox Moderation Research
-                        </h3>
-
-                        <p class="item-description">
-                            Research examining moderation, safety, and security
-                            challenges in online social platforms.
+                            An experimental framework for studying the security and
+                            reliability of AI coding agents performing autonomous
+                            software-maintenance tasks. The project evaluates how
+                            model choice, execution strategy, iteration, and testing
+                            affect the correctness and security of agent-generated
+                            code.
                         </p>
                     </article>
                 </div>
