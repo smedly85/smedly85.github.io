@@ -13,6 +13,14 @@
         content="Sonja Brown is a PhD Candidate in Computer Science researching secure and trustworthy AI, autonomous agents, and multi-agent systems."
     >
 
+    <meta property="og:title" content="Sonja Brown">
+    <meta
+        property="og:description"
+        content="PhD Candidate researching secure and trustworthy AI, autonomous agents, and multi-agent systems."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://smedly85.github.io/">
+
     <title>Sonja Brown</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,6 +71,12 @@
 
         a:hover {
             color: var(--accent-dark);
+        }
+
+        a:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+            border-radius: 3px;
         }
 
         .layout {
@@ -299,6 +313,7 @@
 
         .publication-status {
             margin-top: 12px;
+            margin-bottom: 10px;
 
             color: var(--accent);
             font-size: 13px;
@@ -453,13 +468,6 @@
     <div class="layout">
 
         <aside class="sidebar">
-            <!--
-                This displays your GitHub profile photo.
-
-                Later, you can upload a headshot named profile-photo.jpg
-                and change the src to:
-                src="profile-photo.jpg"
-            -->
             <img
                 class="profile-photo"
                 src="profile-photo.jpg"
@@ -554,18 +562,24 @@
 
                 <p>
                     I am a PhD Candidate in Computer Science at the University of Arizona,
-                    member of
-                    
+                    advised by
                     <a
                         href="https://www.sazzadur.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                    
-                    SPRLab.
+                        Dr. Sazzadur Rahaman
                     </a>
-                    My research focuses on secure and trustworthy artificial 
-                    intelligence, autonomous agents, and multi-agent systems.
+                    in the
+                    <a
+                        href="https://www.sazzadur.com/students/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Security, Privacy and Reliability Lab
+                    </a>.
+                    My research focuses on secure and trustworthy artificial intelligence,
+                    autonomous agents, and multi-agent systems.
                 </p>
 
                 <p>
@@ -593,6 +607,16 @@
 
                         <p class="publication-authors">
                             Master of Science in Data Science
+                        </p>
+                    </article>
+
+                    <article class="research-item">
+                        <h3 class="item-title">
+                            U.S. Army Command and General Staff College
+                        </h3>
+
+                        <p class="publication-authors">
+                            Master of Operational Studies
                         </p>
                     </article>
 
@@ -723,6 +747,21 @@
                             model choice, execution strategy, iteration, and testing
                             affect the correctness and security of agent-generated
                             code.
+                        </p>
+                    </article>
+
+                    <article class="project-item">
+                        <h3 class="item-title">
+                            Military Logistics Optimization
+                        </h3>
+
+                        <p class="item-description">
+                            Developed and evaluated metaheuristic approaches to the
+                            Multi-Vehicle Routing Problem with Time Windows for military
+                            distribution networks. The study compared genetic algorithms,
+                            particle swarm optimization, and simulated annealing across
+                            repeated experiments and examined their performance,
+                            scalability, and suitability for operational decision support.
                         </p>
                     </article>
                 </div>
